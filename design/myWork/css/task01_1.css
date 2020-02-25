@@ -1,0 +1,268 @@
+* {
+		/*优先设置box-sizing: border-box; 减少需要计算的盒模型*/
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+body {
+	background-image: url(../img/back.jpg);
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	display: block;
+	padding: 0 auto;
+	height: 80px;
+	background: #091D2B;
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	position: relative;
+}
+
+.nav-wrap {
+	display: block;
+	width: 980px;
+	margin: 0 auto;
+	height: 80px;
+	padding-bottom: 5px;
+}
+
+.nav>* {
+	display: inline-block;
+}
+
+.nav .logo {
+	text-align: end;
+	position: absolute;
+	padding: 40px 0 5px 5px;
+	height: 80px;
+	font-size: 24px;
+	letter-spacing: .2em;
+}
+.logo1{
+	margin-top: -45px;
+	margin-left: 10px;
+	width: 200px;
+	height: 130px;
+}
+
+.nav .nav_item-list {
+	height: 100%;
+	float: right;
+	
+}
+
+.nav .nav_item-list .nav-item {
+	display: inline-block;
+	height: 100%;
+	padding-right: 28px;
+	padding-top: 54px;
+	list-style: none;
+	font-size: 16px;
+	font-weight: bolder;
+	font-family: "宋体";
+}
+
+.nav .nav_item-list .nav-item a {
+	text-align: end;
+	color: #ffffff;
+}
+.nav .github-logo  {
+	position: relative;
+	display: block;
+	float: right;
+	bottom: -46px;
+	right: 10px;
+}
+
+.header  {
+	position: relative;
+	width: 100%;	
+	height: 500px;
+	z-index: -1;
+}
+
+
+.header  img {
+	width: 100%;
+	height: 100%;
+	
+}
+
+.header .info {
+	background: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.5) 75%,rgba(255,255,255,0) 100%);
+	position: absolute;
+	bottom: 0;
+	right: 10%;
+	display: block;
+	max-width: 300px;
+	height: 120px;
+	color: #FFFFFF;
+	line-height: 150%;
+	font-size: 12px;
+	margin: 0;
+	padding: 10px 10px 30px 10px;
+}
+
+.header .info .title {
+	display: block;
+	font-size: 14px;
+	text-align: right;
+	color: #000A11;
+}
+
+.header .info p {
+	display: block;
+	margin: 0;
+	padding: 12px 0 0 0;
+	color: #000A11;
+
+}
+
+.info-wrap {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.intro {
+	overflow: hidden;
+	margin: 10px auto;
+	width: 1000px;
+	display: block;
+	color: rgba();
+}
+
+.intro-item {
+	background: #FFFFFF;
+	display: inline-block;
+	min-height: 100%;
+	width: 320px;
+	vertical-align: top;
+	
+	/*让元素白色对齐的方式*/
+	padding-bottom: 10000px;
+	margin-bottom: -10000px;
+	
+	font-size: 12px;
+}
+
+.intro-item p {
+	padding: 0 30px;
+	margin-bottom: 25px;
+	line-height: 170%;	
+}
+
+.intro img {
+	width: 300px;
+	height: 180px;
+	margin: 10px 10px 15px 10px;
+}
+
+.self-intro {
+	width: 100%;
+	background: #FFFFFF;
+	margin-top: 100px;
+	text-align: center;
+	height: 500px;
+}
+
+.self-intro img {
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	margin-top: -50px;
+	
+}
+
+.self-intro h1 {
+	margin: 50px auto;
+	font-size: 20px;
+	font-family: "century gothic";
+	color: black;
+	font-weight: 400;
+}
+
+.self-intro p {
+	width: 600px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+.footer {
+	clear: both;
+	width: 100%;
+	background: #000000;
+	color: #FFFFFF;
+	
+}
+
+.footer .nav-bottom {
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #999;
+	text-align: center;
+}
+
+.footer .nav-bottom a {
+	color: #FFFFFF;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	margin: 0 10px;
+}
+
+.footer .link {
+	width: 980px;
+	margin: 0 auto;
+	
+}
+
+.footer .link ul {
+	width: 19%;
+	padding: 2%;
+	font-size: 12px;
+	text-align: center;
+	display: inline-block;
+}
+
+.footer .link ul .title {
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.footer .link ul li a{
+	color: #FFFFFF;
+}
+
+.footer .belong {
+	width: 60px;
+	margin: 30px auto;
+	margin-bottom: 0;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.footer .belong p {
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+
